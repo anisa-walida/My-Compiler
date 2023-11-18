@@ -1,0 +1,53 @@
+Single line comment: Header
+
+Header
+
+
+Single line comment: Taking Input
+
+Taking input of a variable
+
+
+Single line comment: Printing value of a variable
+
+Printing value of a variable
+
+
+Single line comment: Variable declare
+
+Variable declared
+
+
+
+
+Single line comment: If Statement
+
+if statement
+
+
+Single line comment: If Else Statement
+
+if-else statement/n
+
+Single line comment: If Elif Statement
+
+elif ladder
+
+
+Single line comment: For loop
+
+for loop
+
+
+Single line comment: While Do loop
+
+ while do loop
+
+
+Single line comment: Do While loop
+
+do while loop
+Number of Keywords:  15
+ Number of variables: 2
+ Number of Statements: 0
+ Number of Loops: 3

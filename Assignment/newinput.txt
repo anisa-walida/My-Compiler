@@ -1,0 +1,66 @@
+^.^ Header
+add stdio.h;
+
+^.^ Taking Input
+in__s
+
+^.^ Printing value of a variable
+out__a
+
+^.^ Variable declare
+line d,o;
+
+^.^ Operator
++
+&&
+>=
+
+
+
+^.^ If Statement
+if<<k=0>>
+{
+k=1;
+}
+
+^.^ If Else Statement
+if<<k=0>>
+{
+k=1;
+}
+else
+{
+k=2;
+}
+
+^.^ If Elif Statement
+if<<k=0>>
+{
+k=1;
+}
+elif<<k=1>>
+{k=2;
+}
+else{
+k=3;
+}
+
+^.^ For loop
+for(int i=0;i<9;i++)
+{
+   c++;
+}
+
+^.^ While Do loop
+ while<<u=0>>
+do
+{
+k++;
+}
+
+^.^ Do While loop
+do
+{
+k++;
+}
+while<<u=0>>
