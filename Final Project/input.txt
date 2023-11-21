@@ -1,0 +1,162 @@
+^.^ FUNCTION ^.^
+int function_Max ( int Var_a, int Var_b )
+{
+
+}
+int main ( ){ 
+	out_str ( "Hello" ) ;
+
+	^.^ VARIABLE DECLARATION AND INITIALIZATION ^.^
+	out_Line ( ) ;
+        int Var_a = 2 + 87 ;
+	out_Var ( Var_a ) ;
+	out_Line ( ) ;
+	int Var_b = Var_a ;
+	out_Var ( Var_b ) ;
+	out_Line ( ) ;
+	int Var_c = 25,Var_d = Var_c;
+	out_Line ( ) ;
+
+	factorial(3);
+	^.^ INPUT OUTPUT ^.^
+
+	out_str ( "Enter a value (Integer): " );
+	int Var_x;
+	in__ ( Var_x );
+	out_Var ( Var_x );
+	out_Line ( ) ;
+
+	out_str ( "Enter another value (Integer): " );
+	int Var_y;
+	in__ ( Var_y );
+	out_Var ( Var_y );
+	out_Line ( ) ;
+
+	int Var_sum = Var_x + Var_y;
+	out_str ( "Sum : " );
+	out_Var ( Var_sum ); 
+	out_Line ( ) ;
+
+	int Var_sub = Var_x - Var_y;
+	out_str ( "Subtraction : " );
+	out_Var ( Var_sub ); 
+	out_Line ( ) ;
+
+	int Var_mul = Var_x * Var_y;
+	out_str ( "Multiplication : " );
+	out_Var ( Var_mul ); 
+	out_Line ( ) ;
+
+	int Var_div = Var_x / Var_y;
+	out_str ( "Division : " );
+	out_Var ( Var_div ); 
+	out_Line ( ) ;
+
+	^.^ IF ELSE ^.^
+
+	If ( 0 < 4 )
+	{
+		out_str ( "IF " ); 
+
+	}
+	ElseIf ( 1 < 4 )
+	{
+		out_str ( "Else IF" );	
+
+	}
+	ElseIf ( 2 < 4 )
+	{
+		out_str ( "Another Else IF" );
+	}
+	Else
+	{
+		out_str ( "Else" );
+		
+	}
+
+	^.^ FOR LOOP ^.^
+	out_Line ( ) ;
+	out_str ( "Loop start" );
+	for ( 4 To 9 ++ 1 )
+	{
+		
+		out_Line ( );
+		out_Var ( Var_a );
+		out_Line ( );
+		
+	}
+	out_str ( "Loop end" );
+
+	out_str ( "Loop start" );
+	for ( 9 To 4 -- 1 )
+	{
+		
+		out_Line ( );
+		out_Var ( Var_a );
+		out_Line ( );
+		
+	}
+	out_str ( "Loop end" );
+	
+
+	^.^ SWITCH ^.^
+
+        out_Line ( ) ;
+	Switch ( 7 )
+	{
+		1:
+			{	
+				out_Line ( ) ;
+				out_str ( "CASE 1" );
+			}
+		7:
+			{	
+				out_Line ( ) ;
+				out_str ( "CASE 7" );
+			}
+
+
+		default:  {
+
+			}
+	}
+	out_Line ( ) ;
+
+
+	^.^ WHILE LOOP ^.^
+	int Var_i = 14;
+	out_str ( "GT" );
+	out_Line ( ) ;
+	While ( Var_i > 10 )
+	{
+		out_str ( "While .. " );
+		out_Line ( );
+	}
+	int Var_j = 14;
+	out_str ( "GE" );
+	out_Line ( ) ;
+	While ( Var_j >= 10 )
+	{
+		out_str ( "While .. " );
+		out_Line ( );
+	}
+	int Var_k = 6;
+	out_str ( "LT" );
+	out_Line ( ) ;
+	While ( Var_k < 10 )
+	{
+		out_str ( "While .. " );
+		out_Line ( );
+	}
+	int Var_l = 6;
+	out_str ( "LE" );
+	out_Line ( ) ;
+	While ( Var_l <= 10 )
+	{
+		out_str ( "While .. " );
+		out_Line ( );
+	}
+	
+
+	
+}
